@@ -1,0 +1,37 @@
+.card{
+    background-color: antiquewhite;
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 0 40px 0 #999;
+    border-radius: 5%;
+
+}
+.tittle{
+    color: rgb(51, 51, 51);
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px 0 0 0 ;
+}
+.text{
+    color: rgb(51, 51, 51);
+    font-family: sans-serif;
+    padding: 0 20px;
+    text-align: center;
+}
+.github{
+    padding: 130px;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+body{
+    background-color: #ffffff;
+}
+.img{
+    border-radius: 100%;
+    width: 200px;
+    margin: 0 100px;
+    box-shadow: 0 0 40px 0 #646464;
+}

@@ -1,0 +1,29 @@
+.slack-logo{
+    margin: 80px 0 0 690px;
+    width: 150px;
+}
+h1, h2{
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 0 400px;
+    font-size: 30px;
+}
+
+h2{
+    padding: 0 300px;
+    color: #0003;
+    font-weight: lighter;
+}
+@keyframes rotate { to {  transform: rotate(1turn) }}
+.loading__anim {
+    border-radius: 100%;
+    margin: 30px 750px;   
+    width: 35px;   
+    height: 35px;   
+    display: inline-block;   
+    border: 5px solid rgba(189,189,189 ,0.25); 
+    border-top-color: rgb(32, 32, 32);
+    border-left-color: rgb(32, 32, 32); 
+    animation: rotate 700ms infinite linear;
+}

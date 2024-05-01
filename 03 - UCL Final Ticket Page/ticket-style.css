@@ -1,0 +1,67 @@
+body{
+    background-image: url("assets/banner.jpg");
+    background-size: cover;  
+    background-position: center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.box{
+    background-color: rgb(24, 15, 39);
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 40px 0 #3627c4;
+    border-radius: 25px;
+}
+h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    text-shadow: 0px 0px 20px rgb(92, 12, 223);
+}
+h3{
+    padding: 0 75px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: none;
+    font-style: italic;
+    font-weight: lighter;
+    padding-bottom: 0px;
+}
+h4{
+    width: 90px;
+    padding: 0px 30px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.864);
+    text-shadow: none;
+    font-style: italic;
+    font-weight: lighter;
+}
+.name{
+    width: auto;
+}
+span{
+    color: white;
+    text-shadow: none;
+}
+.barca, .qr{
+    margin-top: 0px;
+    margin-left: 54px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.qr{
+    border-radius: 0%;
+    height: 60px;
+    width: 60px;
+}

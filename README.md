@@ -2,7 +2,9 @@
 
 ## Description
 
-This repository contains a collection of web projects that I've been working on. Feel free to explore the code, contribute, and use any part of it for your own learning or inspiration.
+This repository contains a collection of frontend web projects that I’ve been working on. Feel free to explore the code, contribute, and use any part of it for your own learning or inspiration.
+
+If you have any other requests or need further assistance, feel free to ask! 😊
 
 ## Features
 

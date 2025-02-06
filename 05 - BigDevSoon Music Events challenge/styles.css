@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 254, 253);
+}
+
+h1, h2, h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin: 2px;
+    text-align: left;
+}
+
+.icon{
+    padding: 0 5px;
+    width: 20px;
+}
+
+.tittle{
+    font-size: 28px;
+}
+
+.description{
+    font-weight: 500;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    margin-left: 16%;
+    margin-top: 3%;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 9px;
+    text-align: center;
+    border-radius: 13px;
+    width: 1100px;
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.date-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 70px;
+    margin: 20PX;
+    background-color: #F7DAD4;
+    border-radius: 13px;
+    padding: 5px 1%;
+}
+.date-day{
+    margin-bottom: 1px;
+    font-size: 11px;
+    margin: 6px;
+}
+
+.date-time{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.second-date{
+    background-color: #ECF8D3;
+}
+
+.third-date{
+    background-color: #D4E5F7;
+}
+
+.second-date{
+    background-color: #ECF8D3;
+}
+
+.fourth-date{
+    background-color: #E1D3F5;
+}
+
+.buttom-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    width: 20%;
+    height: 45px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.buttom-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: small;
+}
+
+.first-buttom{
+    background-color: #ad1d1d00;
+}
+
+.buttom-text-first{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}

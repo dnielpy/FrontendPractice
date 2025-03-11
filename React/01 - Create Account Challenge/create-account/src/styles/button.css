@@ -1,0 +1,11 @@
+.password-form {
+    background-color: rgb(0, 119, 255);
+    border: 1px solid rgb(0, 119, 255);
+    width: 100%;
+    border-radius: 25px;
+    color: white;
+}
+
+.password-form:hover {
+    background-color: rgb(29, 133, 252);
+}

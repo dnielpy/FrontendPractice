@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PassWord Generator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 
 <body class="body">
@@ -21,19 +20,18 @@
                 <h2 id="password-generated" class="password-generated">
                     Your Password
                 </h2>
-                <button class="copy-button"></button>
-                <button class="reload-button"></button>
+                <button id="copy-button"></button>
+                <button id="reload-button"></button>
             </div>
         </div>
 
 
         <div class="character-length-tittle">
             <h5 class="inputs-tittles">CHARACTER LENGHT</h5>
-            <h4 id="number">13</h4>
         </div>
 
-        <div class="character-lenght-container">
-            <h5 id="min-num" class="min-num">16</h5>
+        <div class="character-length-container">
+            <h5 id="length-value" class="length-value">16</h5>
             <input type="range" id="character-length" name="character-length" min="1" max="32" value="16"
                 oninput="this.nextElementSibling.value = this.value">
             <h5 class="max-num">32</h5>
@@ -42,38 +40,29 @@
         <h5 class="inputs-tittles">SETTINGS</h5>
         <div class="setting-container">
             <div class="toggle-container">
-                <div class="toggle-label">Include uppercase letters</div>
-                <div class="toggle-switch">
-                    <div class="toggle-knob"></div>
-                </div>
+                <label class="toggle-label" for="uppercase-switch">Include uppercase letters</label>
+                <input type="checkbox" id="uppercase-switch" class="toggle-switch">
             </div>
-
             <div class="toggle-container">
-                <div class="toggle-label">Include lowercase letters</div>
-                <div class="toggle-switch">
-                    <div class="toggle-knob"></div>
-                </div>
+                <label class="toggle-label" for="lowercase-switch">Include lowercase letters</label>
+                <input type="checkbox" id="lowercase-switch" class="toggle-switch">
             </div>
-
             <div class="toggle-container">
-                <div class="toggle-label">Include numbers</div>
-                <div class="toggle-switch">
-                    <div class="toggle-knob"></div>
-                </div>
+                <label class="toggle-label" for="number-switch">Include numbers</label>
+                <input type="checkbox" id="number-switch" class="toggle-switch">
             </div>
-
             <div class="toggle-container">
-                <div class="toggle-label">Include symbols</div>
-                <div class="toggle-switch">
-                    <div class="toggle-knob"></div>
-                </div>
+                <label class="toggle-label" for="symbol-switch">Include symbols</label>
+                <input type="checkbox" id="symbol-switch" class="toggle-switch">
             </div>
 
-            <button class="generate-button">
+            <button id="generate-button">
                 <h3 class="button-text">Generate Password</h3>
             </button>
 
         </div>
+
+        <script src="script.js"></script>
 </body>
 
 </html>
